@@ -11,6 +11,7 @@ setup(
     name="wirebin",
     description="Fast binary [de]serialization of native python types",
     version="1.0",
+    license="bsd",
     ext_modules=[Extension(
         'wbin',
         ['wbin.c'],
@@ -19,11 +20,11 @@ setup(
     classifiers = [
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
-        #"License :: OSI Approved :: BSD License",
+        "License :: OSI Approved :: BSD License",
         "Natural Language :: English",
         "Operating System :: Unix",
         "Programming Language :: C",
-        "Topic :: System",
+        "Topic :: Software Development :: Libraries :: Python Modules",
     ]
 )
 
