@@ -28,6 +28,7 @@ setup(
 )
 
 MANIFEST = (
+    "LICENSE",
     "setup.py",
     "paver-minilib.zip",
     "wbin.c",
