@@ -12,6 +12,8 @@ setup(
     description="Fast binary [de]serialization of native python types",
     version="1.0",
     license="bsd",
+    author="Libor Michalek",
+    author_email="libor@pobox.com",
     ext_modules=[Extension(
         'wbin',
         ['wbin.c'],
