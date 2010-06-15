@@ -10,7 +10,7 @@ from paver.setuputils import setup
 setup(
     name="wirebin",
     description="Fast binary [de]serialization of native python types",
-    version="1.0",
+    version="1.0.1",
     license="bsd",
     author="Libor Michalek",
     author_email="libor@pobox.com",
